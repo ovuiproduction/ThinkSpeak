@@ -26,8 +26,8 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String url = "https://api.thingspeak.com/channels/2453090/feeds.json";
-    private  final String appId = "YU7NXINJ4E9PMM06";
+    private final String url = "https://api.thingspeak.com/channels/<Your_CHANNEL_ID>/feeds.json";
+    private  final String appId = "<YOUR_API_KEY";
     Button btnGetInfo;
     TextView textViewDisplayResult;
 
